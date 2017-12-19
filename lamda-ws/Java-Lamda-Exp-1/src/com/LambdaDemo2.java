@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class LamdaDemo2 {
+public class LambdaDemo2 {
 
 	public static void main(String[] args) {
 		

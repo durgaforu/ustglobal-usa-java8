@@ -73,8 +73,8 @@ public class Ex3 {
 		// BinaryOperator<Integer> sum = (a,b) -> a + b;
 		// Integer res = sum.apply(1,2); // yields 3
 
-		// BinaryOperator<Function<Integer, Integer>> compose = (f, g) -> x ->
-		// g.apply(f.apply(x));
+		 BinaryOperator<Function<Integer, Integer>> compose = (f, g) -> x ->
+		 g.apply(f.apply(x));
 		//
 		// Function<Integer, Integer> h = compose.apply(add1, mul3);
 		// Integer res = h.apply(10); // yields 33
